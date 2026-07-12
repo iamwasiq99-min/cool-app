@@ -3,14 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import { Amplify } from 'aws-amplify'
+// import { Amplify } from 'aws-amplify'
 
 function App() {
   const [count, setCount] = useState(0)
-  useEffect(() =>{
-    console.log('Amplify COnfigure')
-    console.log(Amplify.getConfig())
-  })
+  // useEffect(() =>{
+  //   console.log('Amplify Configure')
+  //   console.log(Amplify.getConfig())
+  // })
 
   return (
     <>
